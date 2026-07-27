@@ -16,6 +16,8 @@ Developing an automated barcode scanner using an ESP32-CAM integrated with a loc
 - [x] Displaying product name and status on the OLED.
 # Results
 The system successfully detects and accurately reads EAN-13 barcodes, and is capable of responsively displaying product name information and affiliation status on the OLED and LED.
+# NOTES
+Image Processing Limitations of the ESP32-CAM: The ESP32-CAM module does not perform advanced image processing (such as brand or product logo detection) locally. The device functions solely to capture barcode images, read or transmit them to a server, and display the response. Its limited local data processing capacity makes the module unsuitable for complex artificial intelligence (AI) tasks without the assistance of an external server.
 # Link
 https://drive.google.com/file/d/1IiQ_0j7ASXx2VxhRD74Vd8XRXBEwfXoW/view?usp=drivesdk
 # Documentation
