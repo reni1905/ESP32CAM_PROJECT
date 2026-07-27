@@ -5,8 +5,8 @@ The difficulty people face in quickly and practically identifying and filtering 
 # Solutions
 Developing an automated barcode scanner using an ESP32-CAM integrated with a local database to match barcode numbers (EAN-13) and display product status (Safe/Boycott) on an OLED screen and via LED indicators.
 # Tech Stack
---- Hardware: ESP32-CAM (AI-Thinker), 0.96-inch OLED display, LEDs (Red and Green).
---- Software/Server: Arduino IDE, PHP, MySQL, XAMPP, and the ZXing barcode reading library.
+*** Hardware: ESP32-CAM (AI-Thinker), 0.96-inch OLED display, LEDs (Red and Green).
+*** Software/Server: Arduino IDE, PHP, MySQL, XAMPP, and the ZXing barcode reading library.
 # Features
 - [x] Scanning EAN-13 product barcodes using the ESP32-CAM camera.
 - [x] Sending the barcode image to the local server using HTTP POST.
